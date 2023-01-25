@@ -1,0 +1,44 @@
+body {
+  background-color: #083b4c;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  font-size: 70px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#list { 
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin: auto;
+  list-style: none;
+}
+
+.box {
+  height: 100px;
+  width: 100px;
+  line-height: 100px;
+  text-align: center;
+  font-weight: bolder;
+  color: black;
+  margin: 10px;
+}
+
+.box-fizz {
+  background-color: #0cd6a1;
+}
+
+.box-buzz {
+  background-color: #ffd166;
+}
+
+.box-fizz-buzz {
+  background-color: #f0466f;
+}
+
+.box-number {
+  background-color: #1389b2;
+}
